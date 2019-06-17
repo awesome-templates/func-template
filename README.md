@@ -1,6 +1,8 @@
 ## func-template
 
-A Template for create modern command-line framework [func](https://github.com/WittBulter/func)
+A Template for create modern command-line framework [func](https://github.com/WittBulter/func).
+
+<br/>
 
 ## Features
 
@@ -10,11 +12,10 @@ A Template for create modern command-line framework [func](https://github.com/Wi
   - Bundle with [ncc](https://github.com/zeit/ncc), no redundancy whatsoever.
   - Beautifully structured, no burden of thinking.
 
+<br/>
 
 ## Use This Template
 
 Click <kbd>Use this template</kbd> button on GitHub.
 
 For details please check out the [docs](./template-readme.md).
-
-
