@@ -7,6 +7,7 @@
   "scripts": {
     "start": "func-service dev",
     "build": "func-service build",
+    "test": "yarn build && ava",
     "lint": "tslint -c tslint.yml -p tsconfig.json"
   },
   "dependencies": {
@@ -14,6 +15,7 @@
   },
   "devDependencies": {
     "@types/node": "^12.0.8",
+    "ava": "^2.1.0",
     "func-service": "^0.1.1",
     "ncc": "^0.3.6",
     "ts-node": "^8.2.0",
