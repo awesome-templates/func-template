@@ -1,6 +1,6 @@
 ## func-template
 
-A Template for create modern command-line framework [func](https://github.com/WittBulter/func).
+A Template for create modern command-line framework [func](https://github.com/unix/func).
 
 <br/>
 

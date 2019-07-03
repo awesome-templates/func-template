@@ -5,7 +5,7 @@
   Framework `func` will analyze all your classes, distinguish and run `Command` or `Option`,
 All dirty work has been replaced by service `func-service`. You just need to focus on development.
   
-  Want to learn more？You can try to read document [func](https://github.com/WittBulter/func#guide).
+  Want to learn more？You can try to read document [func](https://github.com/unix/func#guide).
 
 ## Development
 
