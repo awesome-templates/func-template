@@ -1299,10 +1299,10 @@ fsevents@^2.0.6:
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.0.7.tgz#382c9b443c6cbac4c57187cdda23aa3bf1ccfc2a"
   integrity sha512-a7YT0SV3RB+DjYcppwVDLtn13UQnmg0SWZS7ezZD0UjnLwXmy8Zm21GMVGLaFGimIqcvyMQaOJBrop8MyOp1kQ==
 
-func-service@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/func-service/-/func-service-1.0.0.tgz#26285f16c143858b077f707f347eab08a38db244"
-  integrity sha512-ZNlM/ID8hXMARf9Codkfq8faA1K3jLWX6/vuVwex7OJdVGYCNNzBm4x4dZL6y8+jX892PbTnc/sMt7ZvVT7Yfg==
+func-service@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/func-service/-/func-service-1.0.4.tgz#87d3b7745250de536b61332c7e33cd6d9b01d598"
+  integrity sha512-ieABxIGM4U8SSHvM6BJpNnmHdF+WWJJXFSduooSFvIlcZ7gk1QnlAELNOyqWeYisKGDG1sFolRNsInhQG1sb8g==
 
 func@^1.3.0:
   version "1.3.0"
