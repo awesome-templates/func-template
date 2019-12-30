@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "main": "dist/index.js",
   "license": "MIT",
-  "preferGlobal": true,
   "scripts": {
     "start": "func-service dev",
     "build": "func-service build",
