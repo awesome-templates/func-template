@@ -1,7 +1,7 @@
-import { spawn } from 'child_process'
-import { bin } from './_metadata'
+const { spawn } = require('child_process')
+const { bin } = require('./_metadata')
 
-export const $spawn = async(args = [], opts = {}) =>
+const $spawn = async(args = [], opts = {}) =>
   new Promise((resolve, reject) => {
     opts = { stdio: 'pipe', ...opts }
     const stderr = []
@@ -25,3 +25,7 @@ export const $spawn = async(args = [], opts = {}) =>
       }
     })
   })
+
+module.exports = {
+  $spawn,
+}

@@ -1,6 +1,5 @@
-import test from 'ava'
-import { $spawn } from '../utils/_child'
-
+const test = require('ava')
+const { $spawn } = require('../utils/_child')
 
 test('major should print text', async t => {
   try {

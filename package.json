@@ -6,7 +6,7 @@
   "scripts": {
     "start": "func-service dev",
     "build": "func-service build",
-    "test": "yarn build && ava",
+    "test": "ava",
     "lint": "eslint \"{src,test}/**/*.ts\""
   },
   "dependencies": {
@@ -29,9 +29,9 @@
     "@typescript-eslint/eslint-plugin": "^2.22.0",
     "@typescript-eslint/parser": "^2.22.0",
     "@zeit/ncc": "^0.20.4",
-    "ava": "^2.1.0",
+    "ava": "^3.5.0",
     "eslint": "^6.8.0",
-    "eslint-config-ts-lambdas": "^1.1.0",
+    "eslint-config-ts-lambdas": "^1.1.1",
     "func-service": "^1.0.4",
     "typescript": "^3.5.2"
   },

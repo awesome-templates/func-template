@@ -1,7 +1,6 @@
-import test from 'ava'
-import { $spawn } from '../utils/_child'
-import { version } from '../../package'
-
+const test = require('ava')
+const { $spawn } = require('../utils/_child')
+const { version } = require('../../package')
 
 test('option version should print version', async t => {
   try {
