@@ -6,34 +6,17 @@
   "scripts": {
     "start": "func-service dev",
     "build": "func-service build",
-    "test": "ava",
-    "lint": "eslint \"{src,test}/**/*.ts\""
+    "test": "ava"
   },
   "dependencies": {
-    "func": "^1.3.0"
-  },
-  "eslintConfig": {
-    "parser": "@typescript-eslint/parser",
-    "extends": [
-      "eslint-config-ts-lambdas"
-    ],
-    "plugins": [
-      "@typescript-eslint"
-    ],
-    "parserOptions": {
-      "project": "./tsconfig.json"
-    }
+    "func": "^1.3.1"
   },
   "devDependencies": {
-    "@types/node": "^12.0.8",
-    "@typescript-eslint/eslint-plugin": "^2.22.0",
-    "@typescript-eslint/parser": "^2.22.0",
-    "@zeit/ncc": "^0.21.1",
+    "@types/node": "^14.0.13",
+    "@zeit/ncc": "^0.22.3",
     "ava": "^3.5.0",
-    "eslint": "^6.8.0",
-    "eslint-config-ts-lambdas": "^1.1.1",
     "func-service": "^1.0.5",
-    "typescript": "^3.8.3"
+    "typescript": "^3.9.5"
   },
   "files": [
     "dist",
